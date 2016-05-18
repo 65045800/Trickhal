@@ -42,29 +42,42 @@
               <block type="robot_delay" id="38" inline="true">
                 <value name="DELAY">
                   <block type="math_number" id="39">
-                    <field name="NUM">5000</field>
+                    <field name="NUM">2500</field>
                   </block>
                 </value>
                 <next>
-                  <block type="movement_forward" id="13">
+                  <block type="movement_forward" id="51">
                     <next>
-                      <block type="robot_delay" id="14" inline="true">
+                      <block type="robot_delay" id="52" inline="true">
                         <value name="DELAY">
-                          <block type="math_number" id="15">
+                          <block type="math_number" id="53">
                             <field name="NUM">5000</field>
                           </block>
                         </value>
                         <next>
-                          <block type="movement_forward" id="16">
+                          <block type="movement_forward" id="13">
                             <next>
-                              <block type="robot_delay" id="17" inline="true">
+                              <block type="robot_delay" id="14" inline="true">
                                 <value name="DELAY">
-                                  <block type="math_number" id="18">
-                                    <field name="NUM">4975</field>
+                                  <block type="math_number" id="15">
+                                    <field name="NUM">5000</field>
                                   </block>
                                 </value>
                                 <next>
-                                  <block type="movement_stop" id="19"></block>
+                                  <block type="movement_forward" id="16">
+                                    <next>
+                                      <block type="robot_delay" id="17" inline="true">
+                                        <value name="DELAY">
+                                          <block type="math_number" id="18">
+                                            <field name="NUM">4975</field>
+                                          </block>
+                                        </value>
+                                        <next>
+                                          <block type="movement_stop" id="19"></block>
+                                        </next>
+                                      </block>
+                                    </next>
+                                  </block>
                                 </next>
                               </block>
                             </next>
