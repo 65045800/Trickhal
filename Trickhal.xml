@@ -37,43 +37,43 @@
           </block>
         </statement>
         <statement name="ELSE">
-          <block type="movement_forward" id="50">
+          <block type="movement_forward" id="10">
             <next>
-              <block type="robot_delay" id="38" inline="true">
+              <block type="robot_delay" id="11" inline="true">
                 <value name="DELAY">
-                  <block type="math_number" id="39">
+                  <block type="math_number" id="12">
                     <field name="NUM">2500</field>
                   </block>
                 </value>
                 <next>
-                  <block type="movement_forward" id="51">
+                  <block type="movement_forward" id="13">
                     <next>
-                      <block type="robot_delay" id="52" inline="true">
+                      <block type="robot_delay" id="14" inline="true">
                         <value name="DELAY">
-                          <block type="math_number" id="53">
+                          <block type="math_number" id="15">
                             <field name="NUM">5000</field>
                           </block>
                         </value>
                         <next>
-                          <block type="movement_forward" id="13">
+                          <block type="movement_forward" id="16">
                             <next>
-                              <block type="robot_delay" id="14" inline="true">
+                              <block type="robot_delay" id="17" inline="true">
                                 <value name="DELAY">
-                                  <block type="math_number" id="15">
+                                  <block type="math_number" id="18">
                                     <field name="NUM">5000</field>
                                   </block>
                                 </value>
                                 <next>
-                                  <block type="movement_forward" id="16">
+                                  <block type="movement_forward" id="19">
                                     <next>
-                                      <block type="robot_delay" id="17" inline="true">
+                                      <block type="robot_delay" id="20" inline="true">
                                         <value name="DELAY">
-                                          <block type="math_number" id="18">
+                                          <block type="math_number" id="21">
                                             <field name="NUM">4975</field>
                                           </block>
                                         </value>
                                         <next>
-                                          <block type="movement_stop" id="19"></block>
+                                          <block type="movement_stop" id="22"></block>
                                         </next>
                                       </block>
                                     </next>
@@ -92,7 +92,7 @@
           </block>
         </statement>
         <next>
-          <block type="movement_stop" id="49"></block>
+          <block type="movement_stop" id="23"></block>
         </next>
       </block>
     </next>
